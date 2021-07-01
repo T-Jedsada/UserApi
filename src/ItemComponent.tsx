@@ -1,12 +1,14 @@
 import React, {FC} from 'react';
 import {Text} from 'react-native';
 import styled from 'styled-components/native';
+
 type Props = {
   name: string;
   username: string;
   email: string;
   onDelete: () => void;
 };
+
 const ItemComponent: FC<Props> = ({name, username, email, onDelete}) => {
   return (
     <View>

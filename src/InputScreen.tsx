@@ -1,7 +1,7 @@
 import {useNavigation} from '@react-navigation/native';
 import React from 'react';
 import {useState} from 'react';
-import {Data} from './types/User';
+import {Data} from './model/User';
 import styled from 'styled-components/native';
 
 const InputScreen = () => {
