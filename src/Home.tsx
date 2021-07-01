@@ -4,7 +4,7 @@ import {FlatList} from 'react-native';
 import {RouteProp} from '@react-navigation/native';
 import ItemComponent from './ItemComponent';
 import {Data} from './model/User';
-import {Screen, ....} from './Home.view'
+import {Screen} from './Home.view'
 
 type ParamList = {
   MyData: {
